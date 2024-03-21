@@ -149,7 +149,6 @@ namespace FilmSite
         private System.Windows.Forms.Button Clear;
         private System.Windows.Forms.Button Enter;
         private System.Windows.Forms.Button Exit;
-        private EventHandler username_Click;
     }
 }
 

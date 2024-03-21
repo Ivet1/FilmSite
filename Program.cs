@@ -16,6 +16,8 @@ namespace FilmSite
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Login login = new Login();
+            login.ShowDialog();
         }
     }
 }
