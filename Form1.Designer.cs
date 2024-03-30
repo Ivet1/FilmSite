@@ -84,6 +84,7 @@ namespace FilmSite
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(153, 20);
             this.txt_password.TabIndex = 4;
+            this.txt_password.UseSystemPasswordChar = true;
             // 
             // Clear
             // 
@@ -120,9 +121,11 @@ namespace FilmSite
             // 
             // Login
             // 
+            this.AcceptButton = this.Enter;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.CancelButton = this.Exit;
             this.ClientSize = new System.Drawing.Size(615, 447);
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.Enter);

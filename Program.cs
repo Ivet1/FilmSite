@@ -18,6 +18,12 @@ namespace FilmSite
             Application.SetCompatibleTextRenderingDefault(false);
             Login login = new Login();
             login.ShowDialog();
+
+            // Keep the application running until all forms are closed
+            while (Application.OpenForms.Count > 0)
+            {
+                Application.DoEvents();
+            }
         }
     }
 }
